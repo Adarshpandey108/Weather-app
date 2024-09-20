@@ -28,7 +28,7 @@
 
 
 body {
-    background-image: url('/assets/sukoon.jpg'); /* Your background image here */
+    background-image: url('sukoon.jpg'); /* Your background image here */
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
