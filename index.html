@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="weather-app">
+        <div class="theme-toggle">
+            <button id="theme-toggle-btn">🌙</button>
+        </div>
+        <div class="content">
+            <h1>Weather Application</h1>
+            <div class="input-container">
+                <input type="text" id="city-input" placeholder="Enter city">
+                <button id="search-btn">Get Weather</button>
+            </div>
+            <div id="weather-display">
+                <h2 id="city-name"></h2>
+                <img id="weather-icon" src="" alt="Weather Icon" style="width: 100px; height: 100px;">
+                <p id="weather-description"></p>
+                <p><strong>Temperature:</strong> <span id="temperature"></span>°C</p>
+                <p><strong>Feels Like:</strong> <span id="feels-like"></span>°C</p>
+                <p><strong>Humidity:</strong> <span id="humidity"></span>%</p>
+                <p><strong>Pressure:</strong> <span id="pressure"></span> hPa</p>
+                <p><strong>Visibility:</strong> <span id="visibility"></span> km</p>
+                <p><strong>Wind Speed:</strong> <span id="wind-speed"></span> m/s</p>
+                <p id="error-message" style="color: red;"></p>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <p>Made By IITian Adarsh Pandey &copy; 2024</p>
+    </footer>
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
